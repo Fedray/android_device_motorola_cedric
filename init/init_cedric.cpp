@@ -81,7 +81,7 @@ void vendor_load_properties()
 
     // fingerprint
     property_override("ro.build.description", "cedric-7.0/NPPS25.137-72-4/4:user/release-keys");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "motorola/cedric/cedric:7.0/NPPS25.137-72-4/4:user/release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/sailfish/sailfish:9/PQ1A.190105.004/5148680:user/release-keys");
 
     // rmt_storage
     std::string device = android::base::GetProperty("ro.boot.device", "");
